@@ -2,7 +2,7 @@ import numpy as np
 import os
 import datetime
 
-
+ ## 生成自然语言的PROMPT
 def add_days(start_day, delta_days):
     date_1 = datetime.datetime.strptime(start_day, '%B %d, %Y')
     end_date = date_1 + datetime.timedelta(days=delta_days)

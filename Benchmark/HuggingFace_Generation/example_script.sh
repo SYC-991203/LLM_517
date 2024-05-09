@@ -3,7 +3,7 @@
 
 
 python3 run_hf.py \
-    --model_name_or_path google_pegasus-xsum\
+    --model_name_or_path google/pegasus-xsum\
     --do_train \
     --seed=88 \
     --save_total_limit=1 \

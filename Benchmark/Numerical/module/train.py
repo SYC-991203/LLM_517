@@ -2,7 +2,7 @@ import numpy as np
 from data.data_loader import FormerData
 import torch
 import os
-from module.models import Autoformer, Informer, Transformer, Reformer
+from module.models import Autoformer, Informer, Transformer
 import random
 import torch.nn as nn
 from torch import optim
